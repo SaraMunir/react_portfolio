@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #1d192b;
+  position: relative;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.hero{
+  color: white;
+  height: 100vh;
+  background-image: url("./components/assets/backgroundPortfolio.png");
+  background-size: cover;
+  background-position: center;
+}
+.hero1{
+  position: relative;
+
+}
+.heroHead {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.navParent{
+  border: 1px solid plum;
+}
+.navBar{
+  border: 1px solid plum;
+  /* border: 1px solid red; */
+  width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+ul li {
+  list-style: none;
+  /* margin: 0 auto; */
+}
+ul  {
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-item {
+  /* padding: 15px; */
+}
+.nav-item a{
+  color: white;
+  padding: 20px;
+  transition: ease all .5s;
+}
+.nav-item a:hover {
+  background: #2a253e;
+  border-radius: 5px;
+  color: white;
 }
