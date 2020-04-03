@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutMe from './AboutMe';
 function HomePage() {
     // const aboutStyle= {
     //     height: '100vh',
@@ -7,11 +8,22 @@ function HomePage() {
     //     backgroundPostition: 'center' 
     // }
     return (
-        <div class="jumbotron jumbotron-fluid hero" >
-            <div class="container text-right hero1" >
-                <h1 class="display-4 heroHead" >Sara Munir</h1>
-                {/* <p class="lead ">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
+        <div>
+            <div class="jumbotron jumbotron-fluid hero" >
+                <div class="container hero1" >
+                <div class="heroContext text-right" >
+                    <h1 class="display-4 heroHead" >SARA MUNIR</h1>
+                    <div class="d-flex justify-content-end mt-4">
+                        <p class="heroSubTxt">A full stackweb developer with a background in architecture.</p>
+                    </div>
+                    <div class="d-flex justify-content-end mt-4">
+                        <div class="myBtn text-center" >READ MORE</div>
+                    </div>
+                </div>
+                </div>
             </div>
+            <AboutMe />
+            
         </div>
 
     )
