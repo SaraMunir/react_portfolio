@@ -9,7 +9,7 @@ function NavBar( props ) {
             <nav class="navBar">
                 <ul class="d-flex justify-content-around">
                     <li className="nav-item">
-                        <Link to="/" className="navbar-brand">Portfolio</Link>
+                        <Link to="/" className="navbar-brand">Sara</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>

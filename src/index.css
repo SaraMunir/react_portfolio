@@ -27,14 +27,14 @@ code {
 }
 .heroHead {
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 150px;
+  right: 100px;
 }
 .navParent{
-  border: 1px solid plum;
+  /* border: 1px solid plum; */
 }
 .navBar{
-  border: 1px solid plum;
+  /* border: 1px solid plum; */
   /* border: 1px solid red; */
   width: 40%;
   margin: 0 auto;
