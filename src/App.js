@@ -6,12 +6,14 @@ import ContactPage from './components/ContactPage';
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+
+
 function App() {
   return (
     <Router>
       <div>
         <NavBar />
-        <Route exact path= {["/", "/about","/react_portfolio/"]}  component={HomePage} />
+        <Route path= {["/", "/about","/react_portfolio/"]} component={HomePage}  />
         <Route exact path="/ProjectPage"  component={ProjectPage} />
         <Route exact path="/ContactPage"  component={ContactPage} />
       </div>

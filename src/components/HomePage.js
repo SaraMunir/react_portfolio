@@ -1,6 +1,14 @@
-import React from 'react'
+import React , {useRef}  from 'react'
 import AboutMe from './AboutMe';
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop); 
+
 function HomePage() {
+
+    const myRef = useRef(null)
+    const executeScroll = () => scrollToRef(myRef)
+    // const executeScroll2 = () => scrollToRef(myRef2)
+
     // const aboutStyle= {
     //     height: '100vh',
     //     backgroundImage: 'url("./assets/backgroundPortfolio.png");',
@@ -17,12 +25,12 @@ function HomePage() {
                         <p class="heroSubTxt">A full stackweb developer with a background in architecture.</p>
                     </div>
                     <div class="d-flex justify-content-end mt-4">
-                        <div class="myBtn text-center" >READ MORE</div>
+                        <div class="myBtn text-center"  onClick={executeScroll} >READ MORE</div>
                     </div>
                 </div>
                 </div>
             </div>
-            <AboutMe />
+            <AboutMe myRef={myRef} />
             
         </div>
 

@@ -2,9 +2,14 @@ import React from 'react';
 import myProfile from './assets/myProfile.jpg';
 
 
-function AboutMe() {
+function AboutMe(props) {
+
+    // const myRef2 = useRef(null)
+    // const executeScroll = () => scrollToRef(myRef)
+    // const executeScroll2 = () => scrollToRef(myRef2)
+
     return (
-        <div id="aboutMe" class="row container aboutMe mx-auto">
+        <div ref={props.myRef} id="aboutMe" class="row container aboutMe mx-auto">
                 <div class="col-lg-6">
                     <img class="rndImg" src={myProfile} alt="my picture"/>
                 </div>
