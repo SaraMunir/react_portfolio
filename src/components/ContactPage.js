@@ -25,7 +25,7 @@ function ContactPage() {
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <div class="d-flex justify-content-center mt-5">
-                                        <a class="myBtn text-center" href="https://fitness-diaries.herokuapp.com/">SUBMIT</a>
+                                        <a class="myBtn text-center" href="#">SUBMIT</a>
                                     </div>
                                 </form>
                             </div>
