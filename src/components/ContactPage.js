@@ -8,7 +8,7 @@ function ContactPage() {
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div class="row container mx-auto myBox">
                         <div class="col-lg-6">
-                            <img src={groupImg} alt="weather app image" style={{width: "100%"}}/>
+                            <img src={groupImg} alt="weather app" style={{width: "100%"}}/>
                         </div>
                         <div class="col-lg-6 text-center pt-4">
                             <h2 class="mt-3">

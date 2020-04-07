@@ -3,7 +3,7 @@ import weatherImg from './assets/weatherApp.jpg'
 import groupImg from './assets/43069.jpg'
 import foodImg from './assets/cookingForDummies.png';
 import ScrollAnimation from 'react-animate-on-scroll';
-
+\
 function ProjectPage() {
     return (
         <div>
@@ -11,7 +11,7 @@ function ProjectPage() {
                 <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
                     <div class="row container mx-auto myBox">
                         <div class="col-lg-6">
-                            <img src={groupImg} alt="weather app image" style={{width: "100%"}}/>
+                            <img src={groupImg} alt="weather app" style={{width: "100%"}}/>
                         </div>
                         <div class="col-lg-6 text-center pt-4">
                             <h2 class="mt-3">
@@ -38,14 +38,14 @@ function ProjectPage() {
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <img src={foodImg} alt="food app image"/>
+                            <img src={foodImg} alt="food app"/>
                         </div>
                     </div>        
                 </ScrollAnimation>    
                 <ScrollAnimation animateIn="slideInLeft" animateOut='slideOutRight'>
                     <div class="row container mx-auto myBox">
                         <div class="col-lg-6">
-                            <img src={weatherImg} alt="weather app image"/>
+                            <img src={weatherImg} alt="weather app"/>
                         </div>
                         <div  class="col-lg-6 text-center pt-4">
                             <h2 class="mt-3">
