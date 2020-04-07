@@ -11,17 +11,19 @@ function ContactPage() {
                         <div class="row mx-auto myMy ">
                             <img class="col-lg-6" src={mapImg} alt="weather app" style={imgStyle}/>
                             <div class="col-lg-6 text-center contactMe">
-                                <h2 class="mt-3">Contact Me</h2>
-                                <form class="card-body mt-4">
+                                <h2 class="mt-2">Contact Me</h2>
+                                <form class="card-body mt-2">
                                     <div class="form-group text-left">
-                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Name"/>
+                                        <label for="fullName">Enter your Name</label>
+                                        <input type="text" class="form-control" id="fullName" placeholder="Enter Your Name"/>
                                     </div>
                                     <div class="form-group  text-left">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email Address"/>
+                                        <label for="emailAddress">Enter your Email Address</label>
+                                        <input type="email" class="form-control" id="emailAddress" placeholder="Enter Your Email Address"/>
                                     </div>
                                     <div class="form-group text-left">
-                                        <label for="exampleFormControlTextarea1">Enter your Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <label for="message">Enter your Message</label>
+                                        <textarea class="form-control" id="message" rows="3"></textarea>
                                     </div>
                                     <div class="d-flex justify-content-center mt-5">
                                         <div class="myBtn text-center" >SUBMIT</div>
