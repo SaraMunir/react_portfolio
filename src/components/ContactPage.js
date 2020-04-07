@@ -11,8 +11,7 @@ function ContactPage() {
                         <div class="row mx-auto myMy ">
                             <img class="col-lg-6" src={mapImg} alt="weather app" style={imgStyle}/>
                             <div class="col-lg-6 text-center contactMe">
-                                <h2 class="mt-3">Contact Me
-                                </h2>
+                                <h2 class="mt-3">Contact Me</h2>
                                 <form class="card-body mt-4">
                                     <div class="form-group text-left">
                                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Name"/>
