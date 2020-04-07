@@ -33,6 +33,10 @@ function ContactPage() {
                         </div>
                     </div>
                 </ScrollAnimation>
+                <div class="d-flex justify-content-center mt-5 container socialBar">
+                    <a class="socialLinks text-center" href="http://www.linkedin.com/in/sara-munir-689058b5/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a class="socialLinks text-center" href="https://github.com/SaraMunir"><i class="fab fa-github fa-3x"></i></a>
+                </div>
             </div>
         </div>
     )
