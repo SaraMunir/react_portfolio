@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from "react-router-dom";
-
+import myLogo from './assets/myLogoName.png';
 function NavBar( props ) {
     const location = useLocation();
 
@@ -8,8 +8,8 @@ function NavBar( props ) {
         <div class="container-fluid navParent ">
             <nav class="navBar">
                 <ul class="d-flex justify-content-around">
-                    <li className="nav-item">
-                        <Link to="/" className="navbar-brand">Sara </Link>
+                    <li className="">
+                        <Link to="/" className="navbar-brand"><img src={myLogo} style={{width: "50px", height: '50px'}}alt="my profilePic"/> </Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
