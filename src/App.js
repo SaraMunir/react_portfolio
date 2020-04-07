@@ -7,15 +7,16 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
-
 function App() {
   return (
     <Router>
       <div>
         <NavBar />
-        <Route path= {["/", "/about","/react_portfolio/"]} component={HomePage}  />
-        <Route exact path="/ProjectPage"  component={ProjectPage} />
-        <Route exact path="/ContactPage"  component={ContactPage} />
+        <div class="">
+          <Route exact path= {["/", "/about", "/react_portfolio"]} component={HomePage} />
+          <Route exact path="/ProjectPage"  component={ProjectPage} />
+          <Route exact path="/ContactPage"  component={ContactPage} />
+        </div>
       </div>
     </Router>
   );
