@@ -138,3 +138,12 @@ a:hover {
   min-height: 90vh;
   /* border: 1px solid white; */
 }
+.myMy{
+  background: white;
+  padding: 18px 5px;
+  border-radius: 5px;
+}
+.contactMe{
+  color: rgb(39, 39, 39);
+  background: white;
+}
