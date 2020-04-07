@@ -12,7 +12,7 @@ function AboutMe(props) {
     return (
         <div ref={props.myRef} id="aboutMe" class="row container aboutMe mx-auto">
                 <div class="col-lg-6">
-                    <img class="rndImg" src={myProfile} alt="my picture"/>
+                    <img class="rndImg" src={myProfile} alt="my profilePic"/>
                 </div>
                 <div class="col-lg-6 text-center">
                     <h2 class="pinkTxt" >About Me</h2>
