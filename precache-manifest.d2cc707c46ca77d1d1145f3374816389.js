@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b9fcbdc56eb6dcf24d1e892cae7c422",
+    "revision": "7709d4f14bc0dae462a1dc89fbb5c89b",
     "url": "/react_portfolio/index.html"
   },
   {
-    "revision": "0c014ac7fdc42dede7a6",
-    "url": "/react_portfolio/static/css/main.c8ebed1f.chunk.css"
+    "revision": "a0fdfd2db5cf19c25b10",
+    "url": "/react_portfolio/static/css/main.dc2b8306.chunk.css"
   },
   {
-    "revision": "fa09393069683e8cb207",
-    "url": "/react_portfolio/static/js/2.f40dff6c.chunk.js"
+    "revision": "fac08fe8cfce45eee521",
+    "url": "/react_portfolio/static/js/2.5a0975b7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react_portfolio/static/js/2.f40dff6c.chunk.js.LICENSE.txt"
+    "url": "/react_portfolio/static/js/2.5a0975b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c014ac7fdc42dede7a6",
-    "url": "/react_portfolio/static/js/main.501ba7af.chunk.js"
+    "revision": "a0fdfd2db5cf19c25b10",
+    "url": "/react_portfolio/static/js/main.f713ec5a.chunk.js"
   },
   {
     "revision": "6d7b0fea43cde4224782",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b22540a6101b7a2dbadc44daa72b596",
     "url": "/react_portfolio/static/media/myProfile.9b22540a.jpg"
+  },
+  {
+    "revision": "d9cb81f126d2c73adc4c427425405653",
+    "url": "/react_portfolio/static/media/torontoMap.d9cb81f1.jpg"
   },
   {
     "revision": "ebeea33842fbf227f584d48b9f97e892",

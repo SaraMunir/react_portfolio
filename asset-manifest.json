@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.c8ebed1f.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.501ba7af.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.501ba7af.chunk.js.map",
+    "main.css": "/react_portfolio/static/css/main.dc2b8306.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.f713ec5a.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.f713ec5a.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.e9d5f759.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.e9d5f759.js.map",
-    "static/js/2.f40dff6c.chunk.js": "/react_portfolio/static/js/2.f40dff6c.chunk.js",
-    "static/js/2.f40dff6c.chunk.js.map": "/react_portfolio/static/js/2.f40dff6c.chunk.js.map",
+    "static/js/2.5a0975b7.chunk.js": "/react_portfolio/static/js/2.5a0975b7.chunk.js",
+    "static/js/2.5a0975b7.chunk.js.map": "/react_portfolio/static/js/2.5a0975b7.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
-    "precache-manifest.9a820cc594d4f53e01594cdf01c31cb4.js": "/react_portfolio/precache-manifest.9a820cc594d4f53e01594cdf01c31cb4.js",
+    "precache-manifest.d2cc707c46ca77d1d1145f3374816389.js": "/react_portfolio/precache-manifest.d2cc707c46ca77d1d1145f3374816389.js",
     "service-worker.js": "/react_portfolio/service-worker.js",
-    "static/css/main.c8ebed1f.chunk.css.map": "/react_portfolio/static/css/main.c8ebed1f.chunk.css.map",
-    "static/js/2.f40dff6c.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.f40dff6c.chunk.js.LICENSE.txt",
+    "static/css/main.dc2b8306.chunk.css.map": "/react_portfolio/static/css/main.dc2b8306.chunk.css.map",
+    "static/js/2.5a0975b7.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.5a0975b7.chunk.js.LICENSE.txt",
     "static/media/43069.jpg": "/react_portfolio/static/media/43069.a30405aa.jpg",
     "static/media/index.css": "/react_portfolio/static/media/background2.4870e3ad.png",
     "static/media/cookingForDummies.png": "/react_portfolio/static/media/cookingForDummies.6054c4c5.png",
     "static/media/myProfile.jpg": "/react_portfolio/static/media/myProfile.9b22540a.jpg",
+    "static/media/torontoMap.jpg": "/react_portfolio/static/media/torontoMap.d9cb81f1.jpg",
     "static/media/weatherApp.jpg": "/react_portfolio/static/media/weatherApp.ebeea338.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e9d5f759.js",
-    "static/js/2.f40dff6c.chunk.js",
-    "static/css/main.c8ebed1f.chunk.css",
-    "static/js/main.501ba7af.chunk.js"
+    "static/js/2.5a0975b7.chunk.js",
+    "static/css/main.dc2b8306.chunk.css",
+    "static/js/main.f713ec5a.chunk.js"
   ]
 }
